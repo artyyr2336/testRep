@@ -1,0 +1,33 @@
+/* Font size */
+$font_main: "StyreneAWeb", Arial, sans-serif;
+
+/* Colors */
+
+/* Functions */
+@mixin text-overflow($lineClamp, $lineHeight) {
+	display: -webkit-box;
+	display: -moz-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: $lineClamp;
+	overflow: hidden;
+	max-height: $lineClamp * $lineHeight;
+}
+
+@mixin placeholder($color) {
+	&::-webkit-input-placeholder,
+	&::-moz-placeholder,
+	&:-moz-placeholder,
+	&:-ms-input-placeholder {
+		color: $color;
+	}
+}
+
+/* Media */
+$mediaXxl: "(max-width: 1599.98px)";
+$mediaXl: "(max-width: 1199.98px)";
+$mediaLg: "(max-width: 991.98px)";
+$mediaMd: "(max-width: 767.98px)";
+$mediaSm: "(max-width: 575.98px)";
+$media475: "(max-width: 475.98px)";
+$media375: "(max-width: 375.98px)";
+$media320: "(max-width: 320.98px)";

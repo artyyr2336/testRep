@@ -1,0 +1,26 @@
+.input {
+	margin: 10px 0;
+	border: 1px solid grey;
+	padding: 10px;
+	border-radius: 8px;
+	width: 100%;
+}
+
+.textarea {
+	margin: 10px 0;
+	border: 1px solid grey;
+	padding: 10px;
+	border-radius: 8px;
+	width: 100%;
+	min-width: 300px;
+}
+
+.title {
+	padding-left: 20px;
+}
+
+.btn-send {
+	padding: 15px;
+	background-color: grey;
+	border-radius: 8px;
+}
